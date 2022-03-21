@@ -11,7 +11,7 @@ import CoreLocation
 
 
 
-struct Landmark: Hashable, Codable{
+struct Landmark: Hashable, Codable, Identifiable {
     
     var id: Int
     
